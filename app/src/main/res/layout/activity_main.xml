@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:text="Login"
+        android:textColor="#ffff0f00"
+        android:textSize="24.0sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="300.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:background="@drawable/capsule"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="20.0dip"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:background="@drawable/capsule"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20.0dip"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="300.0dip"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="100.0dip"
+            android:layout_height="50.0dip"
+            android:background="@drawable/capsule"
+            android:onClick="OnLogin"
+            android:text="Login"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Source Code By Frosty Hacker"
+        android:textColor="#ffff0f00"
+        android:textSize="14.0sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
